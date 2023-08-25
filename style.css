@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'IM Fell English', serif;
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.headersection {
+    width: 100vw;
+    display: flex;
+    border-bottom: 2px solid;
+    box-shadow: 0px 3px 30px white;
+}
+
+.head {
+    width: 135px;
+    margin: 0 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.head img {
+    width: 60px;
+    height: 50px;
+    border-radius: 100px;
+    box-shadow: 2px 3px 20px pink;
+    margin-left: 30px;
+}
+
+.head p {
+    color: rgb(159, 38, 115);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px 150px;
+    /* border: 3px solid white; */
+}
+
+.section1 .para {
+    margin-top: 10px;
+    border-bottom: 1.5px solid white;
+}
+
+.section1 .content {
+    color: white
+    
+ 
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.content {
+    display: flex;
+    padding: 100px 20px;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.content h1 {
+    font-family: 'IM Fell English', serif;
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tektur', cursive;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Listen {
+    border: 1px solid rgb(63, 63, 105);
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+    position: relative;
+
+}
+
+.Listen a {
+    text-decoration: none;
+    color: rgb(214, 74, 165);
+    font-size: 0.8rem;
+}
+
+.Listen a:hover {
+    transform: scale(1.1);
+    transition: all 0.6s linear 0s;
+}
+
+.audio1 {
+    /* border: 2px solid red; */
+    margin: 10px 0;
+}
+.audio1 audio{
+    height: 30px;
+}
+
+@media (max-width:841px) {
+    .section1 {
+        flex-direction: column-reverse;
+    }
+
+    .section1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .image img {
+        height: auto;
+    }
+
+}
+
+.icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+
+}
+
+.fa {
+    margin: 10PX;
+    padding: 5px;
+    font-size: 25px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+}
+
+.fa-linkedin {
+    background: #1565c0;
+    color: white;
+}
